@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  {% load static %}
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Resume</title>
+  <meta name="description" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/27aeb1ed6a.js" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="{% static 'css/aos.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'styles/main.css' %}" rel="stylesheet" />
+</head>
+
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="
+            navbar navbar-expand-lg
+            fixed-top
+            navbar-transparent
+            bg-primary
+          " color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate">
+            <a class="navbar-brand" href="#" rel="tooltip">Web Resume</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
+              </li>
+              <!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>-->
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="page-content">
+    <div>
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true"
+              style="background-image: url('{%static 'images/cc-bg-1.jpg'%}')"></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#"><img src="{% static 'images/Profile.jpg' %}" alt="Image" /></a>
+                </div>
+                <div class="h2 title"><i>Avdhut Ashok Sagare</i></div>
+                <p class="category text-white"><i>Programmer</i></p>
+                <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor">Hire Me</a>
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://trailblazer.me/id/asagare"
+                    target="_blank" rel="tooltip" title="Checkout my Trailhead Profile"><i
+                      class="fa fa-salesforce"></i></a>
+                    <a class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://twitter.com/avdhut_sagare?s=08" target="_blank" rel="tooltip"
+                    title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="www.linkedin.com/in/avdhut-sagare-6201b8182 " target="_blank" rel="tooltip"
+                    title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a><a
+                    class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/Avdhut16343"
+                    target="_blank" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <!-- ABOUT SECTION STARTS RIGHT HERE -->
+
+                  <div class="h4 mt-0 title">About</div>
+                  <p>
+                    Highly organized and detail-oriented honors graduate from
+                    the Vishwakarma Institute of Information Technology with
+                    9.3 CGPA in Computer Engineering.
+                  </p>
+                  <p>
+                    To be a part of an organization where get a chance to use
+                    my knowledge and skills to contribute in the progress of
+                    the organization as well as myself. Aiming to leverage
+                    proven technical and problem solving skills to
+                    successfully fill my role at your company.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <!-- DETAILS SECTION STARTS RIGHT HERE -->
+
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Age:</strong>
+                    </div>
+                    <div class="col-sm-8"><i>21</i></div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <i>avdhutsagare9740@gmail.com</i>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Phone:</strong>
+                    </div>
+                    <div class="col-sm-8"><i>8669021091</i></div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">permanent Address:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <i>A/P:Hingangaon, Tal: Kavthe-Mahankal, Dist: Sangli,
+                        Maharashtra, 416405</i>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Language:</strong>
+                    </div>
+                    <div class="col-sm-8"><i>Marathi, Hindi, English</i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Professional Skills</div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- HTML BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">HTML</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 80%"></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- CSS BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">CSS</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- SQL BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">MySQL</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 80%"></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- C++ BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">C++</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- JAVA BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">JAVA</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 75%"></div>
+                      <span class="progress-value">75%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- Python BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Python</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Vuejs BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Vuejs</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 65%"></div>
+                      <span class="progress-value">65%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- C BAR -->
+
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">C</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Tools & Skills</div>
+          <table class="table table-success table-striped">
+            <tbody>
+              <tr>
+                <td><strong>Business Intelligence Tools</strong></td>
+                <td>PowerBi, Tableau</td>
+              </tr>
+              <tr>
+                <td><strong>Salesforce</strong></td>
+                <td>51 Badges, 47665 Score</td>
+              </tr>
+              <tr>
+                <td><strong>Elementery Skills</strong></td>
+                <td>Git, MS Office, MS Teams, G Suit</td>
+              </tr>
+              <tr></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <!-- PORTOFOLIO SECTION STARTS RIGHT HERE -->
+
+              <div class="h4 text-center mb-4 title">Portfolio</div>
+              <div class="nav-align-center">
+                <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i
+                        class="fa fa-laptop" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div class="tab-pane active" id="web-development">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/Avdhut16343">
+                        <figure class="cc-effect">
+                          <img src="{%static 'images/project-1.jpg'%}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Recent Project</div>
+                            <p>Github repo</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://tweet-analyzer-web-app.herokuapp.com/">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/project-2.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Tweet Analyazer</div>
+                            <p>Python</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/Avdhut16343/QuizMe">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/project-3.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Quiz Me</div>
+                            <p>Android Development</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://public.tableau.com/app/profile/avdhut.sagare">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/project-4.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">dashboard</div>
+                            <p>tablue public</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="graphic-design" role="tabpanel">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#graphic-design">
+                        <figure class="cc-effect">
+                          <img src="{%static 'images/graphic-design-1.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Triangle Pattern</div>
+                            <p>Graphic Design</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#graphic-design">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/graphic-design-2.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Abstract Umbrella</div>
+                            <p>Graphic Design</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#graphic-design">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/graphic-design-3.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Cube Surface Texture</div>
+                            <p>Graphic Design</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#graphic-design">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/graphic-design-4.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Abstract Line</div>
+                            <p>Graphic Design</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Photography" role="tabpanel">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#Photography">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/photography-1.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Photoshoot</div>
+                            <p>Photography</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#Photography">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/photography-3.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Wedding Photoshoot</div>
+                            <p>Photography</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#Photography">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/photography-2.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Beach Photoshoot</div>
+                            <p>Photography</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="#Photography">
+                        <figure class="cc-effect">
+                          <img src="{% static 'images/photography-4.jpg' %}" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Nature Photoshoot</div>
+                            <p>Photography</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="experience">
+        <div class="container cc-experience">
+          <!-- WORK EXPERIENCE FIELDS STARTS RIGHT HERE -->
+
+          <!--
+          <div class="h4 text-center mb-4 title">Work Experience</div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p><i>Duration</i></p>
+                  <div class="h5"><i>Position</i></div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Experience-1</div>
+                  <p><i>Elaborate your Work Role</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p><i>Duration</i></p>
+                  <div class="h5"><i>Position</i></div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"><i>Experience-2</i></div>
+                  <p>Elaborate Your Work Role 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p><i>Duration</i></p>
+                  <div class="h5"><i>Position</i></div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"><i>Experience-3</i></div>
+                  <p>Elaborate Your Work Role 3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container cc-education">
+         -->
+
+          <!-- EDUCATION FIELDS STARTS RIGHT HERE -->
+
+          <div class="h4 text-center mb-4 title">Education</div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p><i>2019-2022</i></p>
+                  <div class="h5">Bachelor's Degree</div>
+                  <p><i>B.tech</i></p>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"><i>Computer Engineering</i></div>
+                  <p class="category">
+                    <a href="https://www.viit.ac.in/about-us/about-bract/about-viit" target="_blank">Vishwakarma
+                      University of Information Technology</a>
+                  </p>
+                  <p><strong> 9.3 CGPA</strong></p>
+                  <p>
+                    An Autonomous Institute affiliated to Savitribai Phule
+                    Pune University (SPPU)
+                  </p>
+                  <p>
+                    An ISO 9001-2015 certified Institute Accredited with 'A'
+                    Grade By NAAC
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p><i>2016-2019</i></p>
+                  <div class="h5">Diploma</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"><i></i>Computer Engineering</div>
+                  <p class="category">
+                    <a href="http://gpmiraj.ac.in" target="_blank">Goverment Polytechnic, Miraj</a>
+                  </p>
+                  <p><strong>87.31%</strong></p>
+                  <p>Maharashtra State Board of Technical Education</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p><i></i>2016</p>
+                  <div class="h5">Secondary School</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"><i>SSC</i></div>
+                  <p class="category">
+                    <a href="https://schools.org.in/sangli/27350303521/mahankali-vidyaniketan-k-m.html"
+                      target="_blank">Mahankali Vidyaniketan, Kavthe-Mahankal</a>
+                  </p>
+                  <p><strong>84.60%</strong></p>
+                  <p>
+                    Maharashtra State Board of Secondary & Higher Secondary
+                    Education
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="contact">
+        <div class="cc-contact-information" style="background-image: url('{% static 'images/staticmap.png'%}')">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <!-- CONTACT ME SECTION STARTS RIGHT HERE -->
+
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <form action="https://formspree.io/f/xrgroyqw" method="POST">
+                            <div class="p pb-3">
+                              <strong>Feel free to contact me </strong>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                                  <input class="form-control" type="text" name="name" placeholder="Name"
+                                    required="required" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                                  <input class="form-control" type="text" name="Subject" placeholder="Subject"
+                                    required="required" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                  <input class="form-control" type="email" name="_replyto" placeholder="E-mail"
+                                    required="required" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="form-group">
+                                  <textarea class="form-control" name="message" placeholder="Your Message"
+                                    required="required"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <button class="btn btn-primary" type="submit">
+                                  Send
+                                </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <p class="mb-0"><strong>Address </strong></p>
+                          <p class="pb-2">
+                            A/P:Hingangaon, Tal: Kavthe-Mahankal, Dist: Sangli
+                          </p>
+                          <p class="mb-0"><strong>Phone</strong></p>
+                          <p class="pb-2">8669021091</p>
+                          <p class="mb-0"><strong>Email</strong></p>
+                          <p>avdhutsagare9740@gmail.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+    <a class="cc-twitter btn btn-link" href="https://twitter.com/avdhut_sagare?s=08" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a class="cc-instagram btn btn-link" href="https://www.instagram.com/avdhut_sagare/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="h4 title text-center">Avdhut Sagare</div>
+    <div class="text-center text-muted">
+      <p>
+        I hereby declare that all the details furnished above are true and
+        correct to the best of my knowledge and belief.
+      </p>
+    </div>
+  </footer>
+  <script src="{% static 'js/core/jquery.3.2.1.min.js' %}"></script>
+  <script src="{% static 'js/core/popper.min.js' %}"></script>
+  <script src="{% static 'js/core/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/now-ui-kit.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'scripts/main.js' %}"></script>
+</body>
+
+</html>
